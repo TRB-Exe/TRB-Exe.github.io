@@ -1,0 +1,7 @@
+User-agent: GPTBot
+Disallow: /
+
+User-agent: *
+crawl-delay: 2
+Disallow: /files/
+Allow: /
