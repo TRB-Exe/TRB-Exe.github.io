@@ -4,4 +4,10 @@ Disallow: /
 User-agent: *
 crawl-delay: 2
 Disallow: /files/
+Disallow: /CNAME
+Disallow: /newsite_index.html
+Disallow: /images/
 Allow: /
+
+User-agent: Googlebot-Image
+Disallow: /
