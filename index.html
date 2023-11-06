@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html_lang="ru">
+<html>
+<head>
+<title>сайт переехал!</title>
+<meta http-equiv = "refresh" content = "4"; url = https://trbexe.000.pe" />
+<meta property="og:type" content="website">
+<meta name="theme-color" content="#7289da">
+<meta property="og:description" content="Сайт trb.exe.">
+	
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://trbexe.000.pe/styles.css">
+<script src="https://kit.fontawesome.com/0686bb1088.js" crossorigin="anonymous"></script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Outfit&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+<div class="navbar" id="navbar">
+<a href="https://trbexe.000.pe/index.html" ><i class="fa fa-house"></i> Перейти на сайт</a>
+  <a href="javascript:void(0);" class="hamb" onclick="mobileNav()">
+    <i class="fa fa-bars"></i> Меню
+  </a>
+</div>
+
+<h1>Сайт переехал.</h1>
+<p>Сайт trbexe.us.to (ранее trbexe.ml или trb-exe.github.io) спустя более 2 года существования переезжает на более новый сайт с другим доменом, полностью переписанным кодом и страницами и новым дизайном. Старый сайт прекратил работу к сожалению. Вы будете через 4 секунды переадресованы на новый сайт.</p>
+<button onclick="pereiti()">Перейти</button>
+
+
+<p><em>(c) trb.exe | 2021-2023 | все права были сданы на органы</em></p>
+
+<script>
+function mobileNav() {
+  var x = document.getElementById("navbar");
+  if (x.className === "navbar") {
+    x.className += " mobile";
+  } else {
+    x.className = "navbar";
+  }
+}
+
+function testbutn() {
+  alert("Вы нажали на тест кнопка 228!");
+}
+
+function pereiti() {
+    window.location.href = 'https://trbexe.000.pe';
+}
+
+// When the user scrolls the page, execute myFunction
+window.onscroll = function() {stick()};
+
+// Get the navbar
+var navbar = document.getElementById("navbar");
+
+// Get the offset position of the navbar
+var sticky = navbar.offsetTop;
+
+// Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
+function stick() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+</script>
+
+</body>
+</html>
